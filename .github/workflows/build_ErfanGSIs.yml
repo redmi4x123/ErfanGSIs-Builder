@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/PRO6_Plus/8.0.5.0/cn/20200709031541/8e9f480a/update.zip
-  ROM_NAME: Flyme
-  ZIP_NAME: Flyme
+  ROM_URL: https://get.derpfest.org/beryllium-vanilla/builds/DerpFest-10-Official-beryllium-20200722-0328-VANILLA.zip
+  ROM_NAME: Generic:AOSiP_DerpFest
+  ZIP_NAME: AOSiP_DerpFest
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
