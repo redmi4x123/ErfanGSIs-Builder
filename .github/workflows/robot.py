@@ -25,7 +25,7 @@ with pyrogram.Client('bot', os.getenv('API_ID'), os.getenv('API_HASH'), bot_toke
 <b>Download A-Only:</b> <a href="{da}">HERE</a>
 <b>Download AB:</b> <a href="{dab}">HERE</a>
 
-<b>Follow:</b> @TrebleExperience
+<b>Treble Experience</b> - <i>Channel</i>: @TrebleExperience
 
 <a href="https://github.com/HitaloSama/ErfanGSIs">Ported using ErfanGSIs Tool - Hitsuki's Edit</a>""",
         chat_id=os.getenv('CHAT_ID'),
