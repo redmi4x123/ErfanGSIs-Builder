@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://get.derpfest.org/beryllium-vanilla/builds/DerpFest-10-Official-beryllium-20200722-0328-VANILLA.zip
-  ROM_NAME: Generic:AOSiP_DerpFest
-  ZIP_NAME: AOSiP_DerpFest
+  ROM_URL: https://dwnld.aicp-rom.com/device/beryllium/WEEKLY/aicp_beryllium_q-15.0-WEEKLY-20200722.zip
+  ROM_NAME: Generic:AICP
+  ZIP_NAME: AICP
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
