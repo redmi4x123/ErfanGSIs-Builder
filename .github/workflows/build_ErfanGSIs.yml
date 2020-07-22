@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://dwnld.aicp-rom.com/device/beryllium/WEEKLY/aicp_beryllium_q-15.0-WEEKLY-20200722.zip
-  ROM_NAME: Generic:AICP
-  ZIP_NAME: AICP
+  ROM_URL: https://newcontinuum.dl.sourceforge.net/project/ralf979-rom//PEplusFE/PixelExperience_Plus_raphael-10.0-20200722-0555-FAN_EDITION.zip
+  ROM_NAME: PixelExperienceFE
+  ZIP_NAME: PixelExperienceFE
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
