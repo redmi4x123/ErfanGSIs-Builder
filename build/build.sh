@@ -4,7 +4,7 @@
 telegram -M -C "`printenv ROM_NAME` - build started..."
 SYNC_START=$(date +"%s")
 
-sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME --ab
+sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
     mkdir final
 
     SYNC_END=$(date +"%s")
@@ -21,7 +21,8 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME --ab
     cd ErfanGSIs/output/
                
     curl -sL https://git.io/file-transfer | sh
-               
+
+    zip -r "$ZIP_NAME"-Aonly-"$sourcever2"-"$date2"-ErfanGSI.7z *-Aonly-*.img
     zip -r "$ZIP_NAME"-AB-"$sourcever2"-"$date2"-ErfanGSI.7z *-AB-*.img
 
     SYNC_END=$(date +"%s")
@@ -31,6 +32,7 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME --ab
     SYNC_START=$(date +"%s")
     telegram -M -C "`printenv ROM_NAME` - starting upload..."
 
+    echo "::set-env name=DOWNLOAD_A::$(./transfer $MIR "$ZIP_NAME-Aonly-$sourcever2-$date2-ErfanGSI.7z" | grep -o -P '(?<=Download Link: )\S+')"
     echo "::set-env name=DOWNLOAD_AB::$(./transfer $MIR "$ZIP_NAME-AB-$sourcever2-$date2-ErfanGSI.7z" | grep -o -P '(?<=Download Link: )\S+')"
 
     SYNC_END=$(date +"%s")
