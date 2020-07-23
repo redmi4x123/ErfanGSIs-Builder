@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://svwh.dl.sourceforge.net/project/corvus-os//phoenix/Corvus_v7.5-OMEN-phoenix-Gapps-22072020-OFFICIAL-1850.zip
-  ROM_NAME: Generic:CorvusOS
-  ZIP_NAME: CorvusOS_v7.5
+  ROM_URL: https://dl.google.com/developers/android/rvc/images/gsi/aosp_arm64-exp-RPB2.200611.012-6677315.zip
+  ROM_NAME: Generic:Android11_B2.5
+  ZIP_NAME: Android11_B2.5
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
