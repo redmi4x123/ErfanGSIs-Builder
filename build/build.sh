@@ -23,7 +23,6 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME --ab
     curl -sL https://git.io/file-transfer | sh
                
     zip -r "$ZIP_NAME"-AB-"$sourcever2"-"$date2"-ErfanGSI.7z *-AB-*.img
-    zip -r "$ZIP_NAME"-Aonly-"$sourcever2"-"$date2"-ErfanGSI.7z *-Aonly-*.img
 
     SYNC_END=$(date +"%s")
     SYNC_DIFF=$((SYNC_END - SYNC_START))
