@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://cfhcable.dl.sourceforge.net/project/blissroms//Q/raphael/Bliss-v12.10-raphael-OFFICIAL-20200722.zip
-  ROM_NAME: Generic:Bliss_v12.10
-  ZIP_NAME: Bliss_v12.10
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/meizu17/8.1.1.2/cn/20200704154512/62ec39e8/update.zip
+  ROM_NAME: Flyme_Debloat
+  ZIP_NAME: Flyme_Debloat
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
