@@ -4,7 +4,7 @@ on: [push]
 
 env:
   ROM_URL: https://firmware.meizu.com/Firmware/Flyme/meizu17/8.1.1.2/cn/20200704154512/62ec39e8/update.zip
-  ROM_NAME: Flyme_Debloat
+  ROM_NAME: Flyme:Flyme_Debloat
   ZIP_NAME: Flyme_Debloat
   TZ: America/Sao_Paulo
   MIR: gof
