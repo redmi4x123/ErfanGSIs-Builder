@@ -31,7 +31,6 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME --ab
     SYNC_START=$(date +"%s")
     telegram -M -C "`printenv ROM_NAME` - starting upload..."
 
-    echo "::set-env name=DOWNLOAD_A::$(./transfer $MIR "$ZIP_NAME-Aonly-$sourcever2-$date2-ErfanGSI.7z" | grep -o -P '(?<=Download Link: )\S+')"
     echo "::set-env name=DOWNLOAD_AB::$(./transfer $MIR "$ZIP_NAME-AB-$sourcever2-$date2-ErfanGSI.7z" | grep -o -P '(?<=Download Link: )\S+')"
 
     SYNC_END=$(date +"%s")
