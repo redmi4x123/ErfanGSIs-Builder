@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/bootleggersrom//builds/X00T/BootleggersROM-Queue4X00TD.5.1-Stable-Shishufied-20200528-090608.zip
-  ROM_NAME: Generic:Bootleggers
-  ZIP_NAME: Bootleggers
+  ROM_URL: https://master.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms//xiaomi.eu/MIUI-WEEKLY-RELEASES/20.7.23/xiaomi.eu_multi_HMK20ProMI9TPro_20.7.23_v12-10.zip
+  ROM_NAME: MIUI:MIUI-EU
+  ZIP_NAME: MIUI-EU
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
