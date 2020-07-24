@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/blissroms//non-gapps/beryllium/Bliss-v12.10-beryllium-OFFICIAL-20200723.zip
-  ROM_NAME: Generic:Bliss
-  ZIP_NAME: Bliss
+  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/miuimix//weekly/20.7.23/MMX_2.2.0_raphael-raphaelin_20.7.23_v12-10_20200724.zip
+  ROM_NAME: MIUI
+  ZIP_NAME: MiuiMiX
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
