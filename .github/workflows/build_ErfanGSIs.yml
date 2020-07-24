@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.1.0.QJAMIXM/miui_CMIGlobal_V12.0.1.0.QJAMIXM_867725d306_10.0.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: MIUI
+  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/bootleggersrom//builds/X00T/BootleggersROM-Queue4X00TD.5.1-Stable-Shishufied-20200528-090608.zip
+  ROM_NAME: Generic:Bootleggers
+  ZIP_NAME: Bootleggers
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
