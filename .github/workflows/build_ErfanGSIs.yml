@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://www.googleapis.com/drive/v3/files/17C3kYJxaMgCz3ZM5UISrXLLrVbEHPBxW?alt=media&key=AIzaSyAPeiAtskDMGvYJqAUb00tTQ3P90ER-LP8
-  ROM_NAME: OxygenOS
-  ZIP_NAME: OxygenOS
+  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/blissroms//non-gapps/beryllium/Bliss-v12.10-beryllium-OFFICIAL-20200723.zip
+  ROM_NAME: Generic:Bliss
+  ZIP_NAME: Bliss
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
