@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://build.aospa.co/updates/whyred/pa-quartz-4-whyred-20200718.zip
-  ROM_NAME: Generic:AOSPA_Q4
-  ZIP_NAME: AOSPA_Q4
+  ROM_URL: https://1drv.ms/u/s!AhJvWd8pfV3che0aTPQ-aMv94W6Jgw
+  ROM_NAME: Generic:ResurrectionRemix
+  ZIP_NAME: ResurrectionRemix
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
