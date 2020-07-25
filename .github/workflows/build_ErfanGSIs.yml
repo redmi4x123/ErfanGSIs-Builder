@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://otafsg1.h2os.com/patch/amazone2/GLO/OnePlus5Oxygen/OnePlus5Oxygen_23.J.68_GLO_068_2006012224/OnePlus5Oxygen_23_OTA_068_all_2006012224_c7a6016.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: OxygenOS
+  ROM_URL: https://versaweb.dl.sourceforge.net/project/bootloop//RaiyanShishir/Corvus/Corvus_v7.5-OMEN-lavender-23072020-UNOFFICIAL-2207.zip
+  ROM_NAME: Generic:Corvus_v7.5
+  ZIP_NAME: Corvus_v7.5
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
