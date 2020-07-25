@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://otafsg1.h2os.com/patch/amazone2/GLO/OnePlus7ProNROxygen/OnePlus7ProNROxygen_21.E.23_GLO_023_2007081424/OnePlus7ProNROxygen_21_OTA_023_all_2007081424_2926c663b19.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: OxygenOS
+  ROM_URL: https://get.derpfest.org/raphael-vanilla/builds/DerpFest-10-Official-raphael-20200725-VANILLA.zip
+  ROM_NAME: Generic:DerpFest
+  ZIP_NAME: DerpFest
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
