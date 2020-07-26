@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/evolution-x//phoenix/EvolutionX_4.5_phoenix-10.0-20200723-1256-OFFICIAL.zip
-  ROM_NAME: Generic:EvolutionX
-  ZIP_NAME: EvolutionX_4.5
+  ROM_URL: https://cfhcable.dl.sourceforge.net/project/crdroid//mido/6.x/crDroidAndroid-10.0-20200721-mido-v6.8-3.18.x.zip
+  ROM_NAME: Generic:CrDroid
+  ZIP_NAME: CrDroid
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
