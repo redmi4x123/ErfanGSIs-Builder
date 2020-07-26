@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://iweb.dl.sourceforge.net/project/blissroms/Q/tulip/Bliss-v12.10-tulip-OFFICIAL-20200723.zip
-  ROM_NAME: Generic:Bliss
-  ZIP_NAME: Bliss_v12.10
+  ROM_URL: https://osdn.net/frs/redir.php?f=%2Fstorage%2Fg%2Fr%2Fre%2Frevengeos%2Fphoenix%2FRevengeOS-3.2-Q-OFFICIAL-phoenix-20200724-1600.zip
+  ROM_NAME: Generic:RevengeOS
+  ZIP_NAME: RevengeOS_v3.2
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
