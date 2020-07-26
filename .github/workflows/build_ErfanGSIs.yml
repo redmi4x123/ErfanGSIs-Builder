@@ -4,8 +4,8 @@ on: [push]
 
 env:
   ROM_URL: https://pilotfiber.dl.sourceforge.net/project/evolution-x//phoenix/EvolutionX_4.5_phoenix-10.0-20200723-1256-OFFICIAL.zip
-  ROM_NAME: EvolutionX
-  ZIP_NAME: EvolutionX_4.5_Debloat
+  ROM_NAME: Generic:EvolutionX
+  ZIP_NAME: EvolutionX_4.5
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
