@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://mde1.androidfilehost.com/dl/FR-AgDU0lo0h6LIooDQcnQ/1595809804/8889791610682899005/MMX_2.2.0_lavender_20.7.23_v12-10.zip
-  ROM_NAME: MIUI
-  ZIP_NAME: MiuiMiX
+  ROM_URL: https://mgb1.androidfilehost.com/dl/C14fuUJj9YxPBt7JfWHzcA/1595814195/8889791610682900043/AncientOS-CIVILIZATION-v3.9-X00TD-PREHISTORIC-UNOFFICIAL-20200725-0821-GApps.zip
+  ROM_NAME: AncientOS
+  ZIP_NAME: AncientOS_v3.9_Debloat
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
