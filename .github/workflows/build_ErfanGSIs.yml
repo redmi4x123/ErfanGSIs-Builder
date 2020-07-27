@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://svwh.dl.sourceforge.net/project/blissroms/Q/marlin/Bliss-v12.10-marlin-OFFICIAL-20200724.zip
-  ROM_NAME: Generic:Bliss_v12
-  ZIP_NAME: Bliss_v12
+  ROM_URL: https://svwh.dl.sourceforge.net/project/blissroms/Q/I01WD/Bliss-v12.10-I01WD-OFFICIAL-20200723.zip
+  ROM_NAME: Generic:Bliss
+  ZIP_NAME: Bliss_v12.10
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
