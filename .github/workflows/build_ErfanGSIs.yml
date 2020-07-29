@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://iweb.dl.sourceforge.net/project/blissroms/Q/lilac/Bliss-v12.10-lilac-OFFICIAL-20200723.zip
-  ROM_NAME: Generic:Bliss
-  ZIP_NAME: Bliss_v12.10
+  ROM_URL: https://svwh.dl.sourceforge.net/project/lavender7//Shapeshift/Android-Q/ShapeShiftOS_Gyarados-1.1_lavender-10.0-20200724-2122-UNOFFICIAL.zip
+  ROM_NAME: Generic:ShapeShift
+  ZIP_NAME: ShapeShiftOS
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
