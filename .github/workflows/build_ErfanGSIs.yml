@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/crdroid//beryllium/6.x/crDroidAndroid-10.0-20200728-beryllium-v6.8.zip
-  ROM_NAME: Generic:CrDroid
-  ZIP_NAME: CrDroid
+  ROM_URL: https://downloads.raaj52.workers.dev/DerpFest/Community/DerpFest-10-Community-Edition-raphael-20200731.zip
+  ROM_NAME: Generic:DerpFest
+  ZIP_NAME: DerpFest_CE
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
