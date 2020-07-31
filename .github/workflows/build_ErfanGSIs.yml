@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://downloads.raaj52.workers.dev/DerpFest/Community/DerpFest-10-Community-Edition-raphael-20200731.zip
-  ROM_NAME: Generic:DerpFest
-  ZIP_NAME: DerpFest_CE
+  ROM_URL: https://downloads.corvusrom.com/0:/raphael/stable/oss_vendor/vanilla/Corvus_v7.5-OMEN-raphael-30072020-OFFICIAL-1614.zip
+  ROM_NAME: Generic:CorvusOS_v7.5
+  ZIP_NAME: CorvusOS_v7.5
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
