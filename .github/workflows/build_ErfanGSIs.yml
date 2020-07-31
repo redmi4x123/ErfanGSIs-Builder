@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://otafsg1.h2os.com/patch/amazone2/GLO/OnePlus6Oxygen/OnePlus6Oxygen_22.J.47_GLO_047_2007191515/OnePlus6Oxygen_22_OTA_047_all_2007191515_d9e52461.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: OxygenOS
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/16xs/8.20.6.30/cn_beta/20200715101736/f31452ed/update.zip
+  ROM_NAME: Flyme
+  ZIP_NAME: Flyme
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
