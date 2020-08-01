@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://downloads.corvusrom.com/0:/raphael/stable/oss_vendor/vanilla/Corvus_v7.5-OMEN-raphael-30072020-OFFICIAL-1614.zip
-  ROM_NAME: Generic:CorvusOS_v7.5
-  ZIP_NAME: CorvusOS_v7.5
+  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/lineage-x//X00T%5BD%5D/LineageX-10.0-20200625-X00T-v1.1.zip
+  ROM_NAME: Generic:LineageX
+  ZIP_NAME: LineageX
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
