@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/16T/8.20.7.31/cn_daily/20200731003528/a8e8653d/update.zip
-  ROM_NAME: Flyme
-  ZIP_NAME: Flyme
+  ROM_URL: https://fota2.asus.com/delta_package/phone/WW_Z01R/formal/WW_user_100.10.107.87_20200520-user-WW_Z01R-WW_user_100.10.107.92_20200715-user-WW_Z01R-20200715WWnormal/update.zip
+  ROM_NAME: ZenUI
+  ZIP_NAME: ZenUI
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
