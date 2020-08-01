@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/lineage-x//X00T%5BD%5D/LineageX-10.0-20200625-X00T-v1.1.zip
-  ROM_NAME: Generic:LineageX
-  ZIP_NAME: LineageX
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/16T/8.20.7.31/cn_daily/20200731003528/a8e8653d/update.zip
+  ROM_NAME: Flyme
+  ZIP_NAME: Flyme
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
