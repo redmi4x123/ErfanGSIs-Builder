@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://master.dl.sourceforge.net/project/ralf979-rom//Bliss/Bliss-v12.10-raphael-UNOFFICIAL-20200805_2.zip
-  ROM_NAME: Generic:BlissROM
-  ZIP_NAME: BlissROM
+  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/coltos//Raphael/ColtOS-v6.3-raphael-20200805-Official.zip
+  ROM_NAME: Generic:ColtOS
+  ZIP_NAME: ColtOS
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
