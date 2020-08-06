@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: http://otafsg1.h2os.com/patch/amazone2/GLO/OnePlus7Oxygen/OnePlus7Oxygen_14.E.28_GLO_028_2007240035/OnePlus7Oxygen_14.E.28_OTA_028_all_2007240035_a85d4741be1984.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: OxygenOS
+  ROM_URL: https://master.dl.sourceforge.net/project/ralf979-rom//Bliss/Bliss-v12.10-raphael-UNOFFICIAL-20200805_2.zip
+  ROM_NAME: Generic:BlissROM
+  ZIP_NAME: BlissROM
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
