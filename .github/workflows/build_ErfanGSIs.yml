@@ -3,9 +3,9 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/coltos//Raphael/ColtOS-v6.3-raphael-20200805-Official.zip
-  ROM_NAME: Generic:ColtOS
-  ZIP_NAME: ColtOS
+  ROM_URL: https://get.derpfest.org/beryllium-vanilla/builds/DerpFest-10-Official-beryllium-20200806-0115-VANILLA.zip
+  ROM_NAME: Generic:DerpFest
+  ZIP_NAME: DerpFest
   TZ: America/Sao_Paulo
   MIR: gof
 jobs:
